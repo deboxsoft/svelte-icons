@@ -1,7 +1,7 @@
 <script>
   import { appState } from "./../state.js";
   import SvelteLogo from "./SvelteLogo.svelte";
-  import IconsManifest from "svelte-icons-pack/manifest";
+  import IconsManifest from "@deboxsoft/svelte-icons/manifest";
 
   function debounce(func, wait, immediate) {
     var timeout;
@@ -81,7 +81,7 @@
   <a href="#/">
     <div class="top">
       <SvelteLogo />
-      <div class="title">svelte-icons-pack</div>
+      <div class="title">@deboxsoft/svelte-icons</div>
     </div>
   </a>
   <div>

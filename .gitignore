@@ -1,2 +1,25 @@
 /node_modules/
+.vscode
 .DS_Store
+*.log
+
+# Icons
+Icon.svelte
+manifest.js
+
+# Packs
+ai
+bs
+bi
+fi
+fa
+hi
+im
+io
+ri
+si
+ti
+vsc
+wi
+cg
+ph

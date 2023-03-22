@@ -19,7 +19,11 @@
     "svelte": "^3.0.0"
   },
   "dependencies": {
+    "@deboxsoft/module-client": "^2.6.33",
+    "@deboxsoft/module-core": "^2.6.89",
+    "@deboxsoft/svelte-components": "^1.1.124",
+    "@deboxsoft/svelte-core": "^1.1.24",
     "sirv-cli": "^1.0.0",
-    "svelte-icons-pack": "^1.5.0"
+    "@deboxsoft/svelte-icons": "^5.0.0"
   }
 }

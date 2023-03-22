@@ -1,6 +1,6 @@
 <script>
-  import Icon from "svelte-icons-pack/Icon.svelte";
-  import VscLinkExternal from "svelte-icons-pack/vsc/VscLinkExternal";
+  import Icon from "@deboxsoft/components/utils/Icon.svelte";
+  import VscLinkExternal from "@deboxsoft/svelte-icons/vsc/VscLinkExternal";
 </script>
 
 <style>
@@ -13,7 +13,7 @@
   <h1>Svelte Icons Pack</h1>
   <img src="https://img.shields.io/npm/v/svelte-icons-pack.svg" alt="npm" />
   <div class="info">
-    <a href="https://github.com/leshak/svelte-icons-pack" target="_blank">README
+    <a href="https://github.com/deboxosft/svelte-icons" target="_blank">README
       <Icon src={VscLinkExternal} /></a>
   </div>
 </div>

@@ -1,5 +1,5 @@
 <script>
-  import SvelteIcon from "svelte-icons-pack/Icon.svelte";
+  import SvelteIcon from "@deboxsoft/svelte-componenets/utils/Icon.svelte";
   import HiOutlineClipboardCopy from "svelte-icons-pack/hi/HiOutlineClipboardCopy";
   import IconsManifest from "svelte-icons-pack/manifest";
 

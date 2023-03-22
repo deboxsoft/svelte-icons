@@ -1,5 +1,5 @@
 <script>
-  import IconsManifest from "svelte-icons-pack/manifest";
+  import IconsManifest from "@deboxsoft/svelte-icons/manifest";
   import IconsTable from "../components/IconsTable.svelte";
   import { appState } from "../state";
 
