@@ -1,12 +1,14 @@
 {
-  "name": "svelte-icons-pack",
-  "version": "2.1.0",
+  "name": "@deboxsoft/svelte-icons",
+  "version": "5.0.0",
   "description": "Svg icons as Svelte components with props",
   "main": "Icon.svelte",
   "license": "MIT",
   "scripts": {
     "submodule": "git submodule update --init",
-    "build": "node scripts/build.js && tsc"
+    "build": "node scripts/build.js && tsc",
+    "build:ph": "node scripts/build-ph.js && tsc -p tsconfig-ph.json",
+    "publish:next": "yarn publish --access public --tag next"
   },
   "repository": {
     "type": "git",
@@ -22,7 +24,8 @@
     "cheerio": "1.0.0-rc.3",
     "javascript-stringify": "^2.1.0",
     "rimraf": "^3.0.2",
-    "typescript": "^4.9.5"
+    "typescript": "^4.9.5",
+    "@phosphor-icons/core": "^2.0.2"
   },
   "type": "module"
 }

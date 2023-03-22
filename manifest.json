@@ -113,5 +113,13 @@
     "url": "https://github.com/astrit/css.gg",
     "iconsPath": "./src/icons/css.gg/icons/svg",
     "subFolders": false
+  },
+  {
+    "shortName": "ph",
+    "packName": "phosphor",
+    "license": "MIT",
+    "url": "https://github.com/phosphor-icons/phosphor-icons.git",
+    "iconsPath": "./node_modules/@phosphor-icons/core/assets",
+    "subFolders": true
   }
 ]

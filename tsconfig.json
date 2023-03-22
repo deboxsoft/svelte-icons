@@ -1,5 +1,5 @@
 {
-  "include": ["./ai/*.js", "./bs/*.js", "./bi/*.js", "./fi/*.js", "./fa/*.js", "./hi/*.js", "./im/*.js", "./io/*.js", "./ri/*.js", "./si/*.js", "./ti/*.js", "./vsc/*.js", "./wi/*.js", "./cg/*.js"],
+  "include": ["./ai/*.js", "./bs/*.js", "./bi/*.js", "./fi/*.js", "./fa/*.js", "./hi/*.js", "./im/*.js", "./io/*.js", "./ri/*.js", "./si/*.js", "./ti/*.js", "./vsc/*.js", "./wi/*.js", "./cg/*.js", "./ph/*.js"],
   "exclude": ["./im/ImPagebreak.js"],
   "compilerOptions": {
     "allowJs": true,
