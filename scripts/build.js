@@ -351,7 +351,7 @@ async function main() {
   }
 
   await generateIconsManifest();
-  await generateSvelteIconComponent();
+  // await generateSvelteIconComponent();
   await generateTSConfig();
 
   console.log("Done!");

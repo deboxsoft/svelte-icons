@@ -7,7 +7,6 @@
   "scripts": {
     "submodule": "git submodule update --init",
     "build": "node scripts/build.js && tsc",
-    "build:ph": "node scripts/build-ph.js && tsc -p tsconfig-ph.json",
     "publish:next": "yarn publish --access public --tag next"
   },
   "repository": {
